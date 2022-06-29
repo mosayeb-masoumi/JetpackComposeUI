@@ -10,6 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediationJetpackComposeApplication">
         <activity
+            android:name=".login_example.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.MediationJetpackComposeApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recepi_example.RecipeActivity"
+            android:exported="false" />
+        <activity
             android:name=".collaps_toolbar.CollapsToolbarActivity"
             android:exported="false"
             android:label="@string/title_activity_collaps_toolbar"
@@ -34,17 +48,6 @@
             android:exported="false"
             android:label="@string/title_activity_splash"
             android:theme="@style/Theme.MediationJetpackComposeApplication" />
-        <activity
-            android:name=".recepi_example.RecipeActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MediationJetpackComposeApplication">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

@@ -5,4 +5,5 @@
     <string name="title_activity_detailed">DetailedActivity</string>
     <string name="title_activity_recipe">RecipeActivity</string>
     <string name="title_activity_collaps_toolbar">CollapsToolbarActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
