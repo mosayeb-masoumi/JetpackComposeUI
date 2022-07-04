@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediationJetpackComposeApplication">
         <activity
-            android:name=".login_example.LoginActivity"
+            android:name=".grocery_shop.GroceryShopActivity"
             android:exported="true"
-            android:label="@string/title_activity_login"
+            android:label="@string/title_activity_grocery_shop"
             android:theme="@style/Theme.MediationJetpackComposeApplication">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".recepi_example.RecipeActivity"
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.MediationJetpackComposeApplication">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity> <!-- android:name="" -->
+        <activity
+            android:name=".login_example.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".collaps_toolbar.CollapsToolbarActivity"
@@ -29,7 +40,7 @@
             android:label="@string/title_activity_collaps_toolbar"
             android:theme="@style/Theme.MediationJetpackComposeApplication" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".recepi_example.RecipeActivity"
             android:exported="false"
             android:label="@string/title_activity_recipe"
             android:theme="@style/Theme.MediationJetpackComposeApplication" />
